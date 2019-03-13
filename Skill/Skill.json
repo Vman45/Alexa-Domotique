@@ -1,0 +1,259 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "domotique",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Ferme la skill",
+                        "Ferme ma domotique",
+                        "Merci"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IntActions",
+                    "slots": [
+                        {
+                            "name": "UCommande",
+                            "type": "SlotCommande"
+                        },
+                        {
+                            "name": "UQuoi",
+                            "type": "SlotQuoi"
+                        },
+                        {
+                            "name": "UZone",
+                            "type": "AMAZON.Room"
+                        },
+                        {
+                            "name": "UValeur",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "UCouleur",
+                            "type": "AMAZON.Color"
+                        },
+                        {
+                            "name": "ULiaison",
+                            "type": "SlotLiaison"
+                        }
+                    ],
+                    "samples": [
+                        "{UQuoi} {UZone} à {UValeur} pour cent",
+                        "{UQuoi} {UZone} à {UValeur}",
+                        "mode {UCommande} {UQuoi} {ULiaison}  {UZone}",
+                        "{UCommande} {UQuoi} {UZone}",
+                        "{UCommande} {ULiaison} {UQuoi} {UZone}",
+                        "{UCommande} {UQuoi}  {UZone} à {UValeur}",
+                        "{UCommande} {ULiaison} {UQuoi}  {UZone} à {UValeur}",
+                        "{UCommande} {ULiaison} {UQuoi} {ULiaison} {UZone} à {UValeur}",
+                        "{UCommande} {ULiaison} {UQuoi}  {UZone} en {UCouleur}",
+                        "{UCommande} {ULiaison} {UQuoi} {ULiaison} {UZone} à {UValeur} pour cent"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SlotQuoi",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "halogène",
+                                "synonyms": [
+                                    "l'halogène"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hygrométries"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "températures"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hygrométrie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "température"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lumière ",
+                                "synonyms": [
+                                    "lampe"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SlotCommande",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "couleur aléatoire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arc-en-ciel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fixe"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "qu'elles sont"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "qu'elle est"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "consigne de"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "règle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "donne moi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "puissance",
+                                "synonyms": [
+                                    "luminosité"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arrêter",
+                                "synonyms": [
+                                    "éteindre",
+                                    "éteins",
+                                    "arrête"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Allumer",
+                                "synonyms": [
+                                    "allume"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SlotLiaison",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "de la"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "du"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "de"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "l'"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "le"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "en"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "à"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "des"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "les"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "la"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "AMAZON.Room",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "salon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bureau"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

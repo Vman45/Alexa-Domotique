@@ -1,0 +1,58 @@
+{
+	"device" : [
+		{
+			"nom" : ["halogène"],
+			"zone" : "salon",
+			"host" : "prisehalogene",
+			"type" : "sonoff"
+		},
+		{
+			"nom" : [ "lumière", "lampe" ],
+			"zone" : "salon",
+			"host" : "MyLED3564343",
+			"type" : "led"
+		},
+		{
+			"nom" : [ "lumière", "lampe" ],
+			"zone" : "bureau",
+			"host" : "myled3730721",
+			"type" : "led"
+		},
+		{
+			"nom" : ["télévision"],
+			"zone" : "salon",
+			"host" : "ESP04AA44",
+			"type" : "ir1"
+		},
+		{
+			"nom" : ["chaîne"],
+			"zone" : "salon",
+			"host" : "ESP04AA44",
+			"type" : "ir2"
+		},
+		{
+			"nom" : ["température"],
+			"zone" : "salon",
+			"host" : "local",
+			"type" : "mesure"
+		},
+		{
+			"nom" : ["hygrométrie"],
+			"zone" : "salon",
+			"host" : "local",
+			"type" : "mesure"
+		},
+		{
+			"nom" : ["température"],
+			"zone" : "extérieure",
+			"host" : "local",
+			"type" : "mesure"
+		},
+		{
+			"nom" : ["hygrométrie"],
+			"zone" : "extérieure",
+			"host" : "local",
+			"type" : "mesure"
+		}
+	]
+}

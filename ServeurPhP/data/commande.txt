@@ -1,0 +1,96 @@
+{
+	"led" : [
+		{
+			"marche" : "/set?p=m",
+			"allumer" : "/set?p=m",
+			"allume" : "/set?p=m"
+		},
+		{
+			"stop" : "/set?p=a",
+			"stopper" : "/set?p=a",
+			"arrêt" : "/set?p=a",
+			"arrête" : "/set?p=a",
+			"arrêter" : "/set?p=a",
+			"éteindre" : "/set?p=a",
+			"éteins" : "/set?p=a"
+		},
+		{
+			"rouge" : "/set?c=ff0000",
+			"bleu" : "/set?c=0000ff",
+			"bleue" : "/set?c=0000ff",
+			"vert" : "/set?c=00ff00",
+			"verte" : "/set?c=00ff00",
+			"violet" : "/set?c=9900ff",
+			"violette" : "/set?c=9900ff",
+			"fuchsia" : "/set?c=ff00ff",
+			"blanc" : "/set?c=ff6200",
+			"blanche" : "/set?c=ff6200",
+			"orange" : "/set?c=66ccff"
+		},
+		{
+			"PCoeff" : "2.55",
+			"PmaxIn" : "100",
+			"puissance" : "/set?b=",
+			"luminosité" : "/set?b="
+		},
+		{
+			"fixe" : "/set?m=0",
+			"clignotement" : "/set?m=1",
+			"couleur aléatoire" : "/set?m=8",
+			"arc en ciel" : "/set?m=11"
+		},
+		{
+			"PCoeff" : "650",
+			"PmaxIn" : "100",
+			"vitesse" : "/set?s="
+		}
+	],
+	"sonoff" : [
+		{
+			"marche" : "/ay?o=1",
+			"allumer" : "/ay?o=1",
+			"allume" : "/ay?o=1"
+		},
+		{
+			"stop" : "/ay?o=1",
+			"stopper" : "/ay?o=1",
+			"arrêt" : "/ay?o=1",
+			"arrête" : "/ay?o=1",
+			"arrêter" : "/ay?o=1",
+			"éteindre" : "/ay?o=1",
+			"éteins" : "/ay?o=1"
+		}
+	],
+	"ir1" : [
+		{
+			"marche" : "/set?device1=on",
+			"allumer" : "/set?device1=on",
+			"allume" : "/set?device1=on"
+		},
+		{
+			"stop" : "/set?device1=off",
+			"stopper" : "/set?device1=off",
+			"arrêt" : "/set?device1=off",
+			"arrête" : "/set?device1=off",
+			"arrêter" : "/set?device1=off",
+			"éteindre" : "/set?device1=off",
+			"éteins" : "/set?device1=off"
+		}
+	],
+	"ir2" : [
+		{
+			"marche" : "/set?device2=on",
+			"allumer" : "/set?device2=on",
+			"allume" : "/set?device2=on"
+		},
+		{
+			"stop" : "/set?device2=off",
+			"stopper" : "/set?device2=off",
+			"arrêt" : "/set?device2=off",
+			"arrête" : "/set?device2=off",
+			"arrêter" : "/set?device2=off",
+			"éteindre" : "/set?device2=off",
+			"éteins" : "/set?device2=off"
+		}
+	]
+}
